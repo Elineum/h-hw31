@@ -1,0 +1,19 @@
+.menu-item {
+  border-radius: 15px;
+  border: 1px solid #301b28;
+  background-color: #301b28;
+  color: #ddc5a2;
+  display: flex;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    border: 1px solid #b6452c;
+    color: #b6452c;
+  }
+
+  &__link {
+    color: inherit;
+    padding: 12px 15px;
+    text-decoration: none;
+  }
+}

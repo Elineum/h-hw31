@@ -1,0 +1,12 @@
+.image-holder {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+
+  &__image-wrap {
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 740px;
+    display: flex;
+  }
+}

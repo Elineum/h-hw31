@@ -1,0 +1,11 @@
+.page-head {
+  padding: 10px;
+  background-color: #ddc5a2;
+
+  &__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+  }
+}
